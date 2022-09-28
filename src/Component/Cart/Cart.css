@@ -1,0 +1,40 @@
+.cart-container .order-summary {
+    font-size: 25px;
+    line-height: 30px;
+    color: #1C2B35;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cart-container .grand-total {
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.carts > p {
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.cart-container .clear-cart, .review-order {
+    margin-bottom: 16px;
+    display: block;
+    width: 232px;
+    height: 48px;
+    background-color: #FF3030;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.clear-cart p {
+    margin-right: 10px;
+}
+.cart-container .btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
